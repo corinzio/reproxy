@@ -6,7 +6,7 @@ All the configuration for reproxy is made in the config.json file
 ``` javascript
 {
   "rules":{ <-- rules object where you can translate from local url specified in manifest.json to the target oData service
-    "/destinations/ES4/*": "https://sapes4.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/"
+    "/destinations/ES4/*": "https://sapes4.sapdevcenter.com"
   },
   "auth":{ <-- auth optional object storing basic authentication for a target oData
     "https://sapes4.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/": {
