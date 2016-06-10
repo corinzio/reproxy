@@ -9,7 +9,7 @@ All the configuration for reproxy is made in the config.json file
     "/destinations/ES4/*": "https://sapes4.sapdevcenter.com"
   },
   "auth":{ <-- auth optional object storing basic authentication for a target oData
-    "https://sapes4.sapdevcenter.com/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/": {
+    "https://sapes4.sapdevcenter.com": {
       "user":"username",
       "passwd":"password"
     }
